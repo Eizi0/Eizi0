@@ -1,12 +1,12 @@
-# Hello, I'm Jeovany Delvo aka Eizio
+# Hello, Je m'appelle Jeovany Delvo aka Eizio
 <a href="https://linkedin.com/in/jeovany-nguedjio/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 
 I am a student with a deep interest in technology and a dedication to solving complex problems, particularly in the field of cybersecurity.
 
-## Objective
+## Objectif
 
-My journey in computer science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
+Mon parcours en informatique m'a amené à développer une passion pour la cybersécurité, et je suis désormais impatient de faire la transition vers ce domaine, visant notamment à rejoindre un Security Operations Center (SOC) en tant qu'analyste de niveau 1.
 
 ## Skills
 
@@ -45,7 +45,7 @@ My journey in computer science has led me to develop a passion for cybersecurity
     <img src="https://img.shields.io/badge/-Google%20Cloud%20Platform-4285F4?&style=for-the-badge&logo=Google%20Cloud&logoColor=white" />
 </div>
 
-## Certifications
+## Certifications (Encours)
 <div>
 <img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
 <img src="https://img.shields.io/badge/-Network%2B-007ACC?&style=for-the-badge&logo=CompTIA&logoColor=white" />
@@ -57,3 +57,4 @@ My journey in computer science has led me to develop a passion for cybersecurity
 ## Projects
 - Detection Lab
 - SOC Automation Project
+- Blue Team Lab

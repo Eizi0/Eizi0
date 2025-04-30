@@ -2,7 +2,7 @@
 <a href="https://linkedin.com/in/jeovany-nguedjio/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 
-I am a student with a deep interest in technology and a dedication to solving complex problems, particularly in the field of cybersecurity.
+Je suis un étudiant avec un profond intérêt pour la technologie et un dévouement à la résolution de problèmes complexes, notamment dans le domaine de la cybersécurité.
 
 ## Objectif
 
@@ -57,4 +57,4 @@ Mon parcours en informatique m'a amené à développer une passion pour la cyber
 ## Projects
 - Detection Lab
 - SOC Automation Project
-- Blue Team Lab
+- SOC Lab for Blue Team

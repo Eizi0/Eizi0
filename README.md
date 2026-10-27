@@ -36,7 +36,8 @@
 
 **[MemHunter](https://github.com/Eizi0/memhunter)** — forensique mémoire (Volatility 3), mapping MITRE ATT&CK automatique, génération de brouillons de règles Sigma/YARA depuis un finding réel. CLI + app desktop, Windows et Linux.
 **[Investigation AGENTS.md](https://github.com/Eizi0/agents-md-attack-vector-research)** — vérification d'un incident de sécurité réel (détournement d'agents de codage IA), protocole de laboratoire documenté, règles Sigma testées.
-**[Wazuh-Rules](https://github.com/Eizi0/Wazuh-Rules)** — règles de détection pour Wazuh. **[ProxUI](https://github.com/Eizi0/proxui)** — interface web pour Proxmox VE. **[Internal-PKI-StepCA](https://github.com/Eizi0/Internal-PKI-StepCA)** — PKI interne avec Step-CA et Traefik. **[Malware_Analyser](https://github.com/Eizi0/Malware_Analyser)** — outil Python d'analyse de malware. **[SOC_Lab](https://github.com/Eizi0/SOC_Lab)** — lab SOC dans le cloud.
+**[ProxUI](https://github.com/Eizi0/proxui)** — interface de gestion Proxmox VE (React + Express) : tableaux de bord par hôte et par VM sur données RRD réelles, mode démo sans cluster requis, tests Vitest/Supertest et CI GitHub Actions, [release v1.1.0](https://github.com/Eizi0/proxui/releases/tag/v1.1.0).
+**[Wazuh-Rules](https://github.com/Eizi0/Wazuh-Rules)** — règles de détection pour Wazuh. **[Internal-PKI-StepCA](https://github.com/Eizi0/Internal-PKI-StepCA)** — PKI interne avec Step-CA et Traefik. **[Malware_Analyser](https://github.com/Eizi0/Malware_Analyser)** — outil Python d'analyse de malware. **[SOC_Lab](https://github.com/Eizi0/SOC_Lab)** — lab SOC dans le cloud.
 
 D'autres projets (automatisation des habilitations Active Directory, plateforme de sensibilisation au phishing, lab de détection Terraform/Proxmox) sur **[jeovany.com/projets](https://www.jeovany.com/projets/)**, dépôts non publics.
 

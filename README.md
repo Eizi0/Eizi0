@@ -1,60 +1,38 @@
-# Hello, Je m'appelle Jeovany Delvo aka Eizio
-<a href="https://linkedin.com/in/jeovany-nguedjio/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+# Jeovany D. — Cyberdéfense · SOC · DFIR · CTI · Detection Engineering
 
+En alternance Admin Sys & SecOps, en recherche d'un **CDI en SOC, DFIR, CTI ou Detection Engineering** en France (diplôme janvier 2027, disponible à partir d'avril 2027).
 
-Je suis un étudiant avec un profond intérêt pour la technologie et un dévouement à la résolution de problèmes complexes, notamment dans le domaine de la cybersécurité.
+Portfolio complet, investigations et articles techniques : **[jeovany.com](https://www.jeovany.com)**
 
-## Objectif
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeovany-nguedjio)
+[![Portfolio](https://img.shields.io/badge/-jeovany.com-5ab0ff?&style=for-the-badge&logo=firefox&logoColor=white)](https://www.jeovany.com)
 
-Mon parcours en informatique m'a amené à développer une passion pour la cybersécurité, et je suis désormais impatient de faire la transition vers ce domaine, visant notamment à rejoindre un Security Operations Center (SOC) en tant qu'analyste de niveau 1.
+## Projets
 
-## Skills
+| Projet | Description |
+|---|---|
+| **[MemHunter](https://github.com/Eizi0/memhunter)** | Workbench de forensique mémoire — Volatility 3, mapping automatique vers MITRE ATT&CK, génération de brouillons de règles Sigma/YARA depuis un finding réel. CLI headless et app desktop, Windows et Linux. |
+| **[Investigation AGENTS.md](https://github.com/Eizi0/agents-md-attack-vector-research)** | Vérification d'un incident de sécurité réel (détournement d'agents de codage IA) : sources tracées, protocole de laboratoire documenté, règles Sigma testées. |
+| **[Wazuh-Rules](https://github.com/Eizi0/Wazuh-Rules)** | Règles de détection pour Wazuh. |
+| **[ProxUI](https://github.com/Eizi0/proxui)** | Interface web pour gérer Proxmox VE, déployable en conteneur. |
+| **[Internal-PKI-StepCA](https://github.com/Eizi0/Internal-PKI-StepCA)** | PKI interne avec Step-CA et Traefik. |
+| **[Malware_Analyser](https://github.com/Eizi0/Malware_Analyser)** | Outil Python d'analyse de malware. |
+| **[SOC_Lab](https://github.com/Eizi0/SOC_Lab)** | Environnement de lab SOC dans le cloud. |
 
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------| 
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+D'autres projets (automatisation des habilitations Active Directory, plateforme de sensibilisation au phishing, lab de détection Terraform/Proxmox) sont documentés sur **[jeovany.com/projets](https://www.jeovany.com/projets/)**, dépôts non publics.
 
-## Tools
+## Stack
 
-### Network
-<div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
-</div>
+**SIEM / XDR** : Wazuh · Splunk · Graylog · Elastic (ELK)
+**Réseau & détection** : Suricata · Snort · OPNsense · Wireshark · FortiGate
+**Forensique & DFIR** : Volatility · Velociraptor
+**CTI** : OpenCTI · MISP · YARA · STIX/TAXII
+**Réponse & automatisation** : TheHive · Shuffle · osTicket · Python · PowerShell · Bash
+**Infra, IaC & identité** : Proxmox · Terraform · Ansible · Docker · Traefik · Active Directory · Microsoft Entra ID · Azure
+**Supervision** : Zabbix · OpenObserve
 
-### Endpoint
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" />
-</div>
+## Certifications
 
-### SIEM
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
-</div>
+Google Cybersecurity Professional Certificate · Google Project Management Professional Certificate · Cybersecurity Risk Management Framework · NIST Cybersecurity and Risk Management Frameworks · Admin Cyber 5.2.100
 
-### CLOUD
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft%20Azure-0089D6?&style=for-the-badge&logo=Microsoft%20Azure&logoColor=white" />  
-    <img src="https://img.shields.io/badge/-Amazon%20AWS-232F3E?&style=for-the-badge&logo=Amazon%20AWS&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Google%20Cloud%20Platform-4285F4?&style=for-the-badge&logo=Google%20Cloud&logoColor=white" />
-</div>
-
-## Certifications (Encours)
-<div>
-<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-Network%2B-007ACC?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-A%2B-4D4D4D?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-CDSA-006400?&style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/-CCD-000080?&style=for-the-badge&logoColor=white" />
-</div>
-
-## Projects
-- Detection Lab
-- SOC Automation Project
-- SOC Lab for Blue Team
+Détail et preuves de vérification sur [jeovany.com/certificats](https://www.jeovany.com/certificats/).

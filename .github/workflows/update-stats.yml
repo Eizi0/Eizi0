@@ -21,6 +21,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Créer le dossier assets/ (git ne suit pas les dossiers vides)
+        run: mkdir -p assets
+
       - name: Télécharger la carte stats GitHub
         run: |
           curl -fsSL "https://github-readme-stats.vercel.app/api?username=Eizi0&show_icons=true&theme=dark&bg_color=0a101c&title_color=5AB0FF&text_color=c9d6e8&icon_color=46C98B&border_color=22304a&hide_border=false&count_private=true&cache_seconds=1800" -o assets/stats.svg

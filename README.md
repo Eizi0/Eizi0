@@ -73,8 +73,8 @@ D'autres projets (automatisation des habilitations Active Directory, plateforme 
 ## 📊 Activité
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Eizi0&show_icons=true&theme=dark&bg_color=0a101c&title_color=5AB0FF&text_color=c9d6e8&icon_color=46C98B&border_color=22304a&hide_border=false&count_private=true" height="165" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Eizi0&theme=dark&background=0a101c&stroke=22304a&ring=5AB0FF&fire=F2B24A&currStreakLabel=5AB0FF&sideLabels=c9d6e8&dates=666f85&currStreakNum=c9d6e8&sideNums=c9d6e8" height="165" />
+  <img src="./assets/stats.svg" height="165" />
+  <img src="./assets/streak.svg" height="165" />
 </p>
 
 <br/>

@@ -1,0 +1,45 @@
+name: Mettre à jour les images de stats
+
+# Régénère les cartes stats/streak et les commite directement dans le
+# dépôt (assets/*.svg), plutôt que de les référencer en live depuis le
+# README. GitHub sert les fichiers du dépôt directement (pas de proxy
+# camo par-dessus), donc l'image affichée change réellement à chaque
+# exécution — contrairement à une URL externe mise en cache côté GitHub
+# pour une durée indéterminée.
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # tous les jours à 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Télécharger la carte stats GitHub
+        run: |
+          curl -fsSL "https://github-readme-stats.vercel.app/api?username=Eizi0&show_icons=true&theme=dark&bg_color=0a101c&title_color=5AB0FF&text_color=c9d6e8&icon_color=46C98B&border_color=22304a&hide_border=false&count_private=true&cache_seconds=1800" -o assets/stats.svg
+
+      - name: Télécharger la carte streak de contribution
+        run: |
+          curl -fsSL "https://github-readme-streak-stats.herokuapp.com/?user=Eizi0&theme=dark&background=0a101c&stroke=22304a&ring=5AB0FF&fire=F2B24A&currStreakLabel=5AB0FF&sideLabels=c9d6e8&dates=666f85&currStreakNum=c9d6e8&sideNums=c9d6e8" -o assets/streak.svg
+
+      - name: Vérifier que les deux fichiers sont des SVG valides et non vides
+        run: |
+          for f in assets/stats.svg assets/streak.svg; do
+            test -s "$f" || { echo "$f est vide"; exit 1; }
+            head -c 200 "$f" | grep -qi "<svg" || { echo "$f ne ressemble pas à un SVG"; exit 1; }
+          done
+
+      - name: Commiter si les images ont changé
+        run: |
+          git config user.name "Eizi0"
+          git config user.email "159724614+Eizi0@users.noreply.github.com"
+          git add assets/stats.svg assets/streak.svg
+          git diff --staged --quiet && echo "Aucun changement" || git commit -m "Mise à jour automatique des stats ($(date -u +%Y-%m-%d))"
+          git push

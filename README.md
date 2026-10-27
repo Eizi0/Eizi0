@@ -30,7 +30,7 @@
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Eizi0&repo=Wazuh-Rules&theme=dark&bg_color=0a101c&title_color=5AB0FF&text_color=c9d6e8&icon_color=46C98B&border_color=22304a" />
   </a>
   <a href="https://github.com/Eizi0/proxui">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Eizi0&repo=proxui&theme=dark&bg_color=0a101c&title_color=5AB0FF&text_color=c9d6e8&icon_color=46C98B&border_color=22304a" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Eizi0&repo=proxui&theme=dark&bg_color=0a101c&title_color=5AB0FF&text_color=c9d6e8&icon_color=46C98B&border_color=22304a&cache_bust=20261027" />
   </a>
 </p>
 

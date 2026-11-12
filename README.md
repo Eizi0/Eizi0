@@ -18,26 +18,21 @@
 ## 🛰️ Projets
 
 <p align="center">
-  <a href="https://github.com/Eizi0/memhunter">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Eizi0&repo=memhunter&theme=dark&bg_color=0a101c&title_color=5AB0FF&text_color=c9d6e8&icon_color=46C98B&border_color=22304a" />
-  </a>
-  <a href="https://github.com/Eizi0/agents-md-attack-vector-research">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Eizi0&repo=agents-md-attack-vector-research&theme=dark&bg_color=0a101c&title_color=5AB0FF&text_color=c9d6e8&icon_color=46C98B&border_color=22304a" />
-  </a>
+  <a href="https://github.com/Eizi0/memhunter"><img src="./assets/card-memhunter.svg" width="400" alt="MemHunter" /></a>
+  <a href="https://github.com/Eizi0/agents-md-attack-vector-research"><img src="./assets/card-agents-md-attack-vector-research.svg" width="400" alt="Investigation AGENTS.md" /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/Eizi0/Wazuh-Rules">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Eizi0&repo=Wazuh-Rules&theme=dark&bg_color=0a101c&title_color=5AB0FF&text_color=c9d6e8&icon_color=46C98B&border_color=22304a" />
-  </a>
-  <a href="https://github.com/Eizi0/proxui">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Eizi0&repo=proxui&theme=dark&bg_color=0a101c&title_color=5AB0FF&text_color=c9d6e8&icon_color=46C98B&border_color=22304a&cache_bust=20261027" />
-  </a>
+  <a href="https://github.com/Eizi0/Wazuh-Rules"><img src="./assets/card-wazuh-rules.svg" width="400" alt="Wazuh-Rules" /></a>
+  <a href="https://github.com/Eizi0/proxui"><img src="./assets/card-proxui.svg" width="400" alt="ProxUI" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Eizi0/OpenDLM"><img src="./assets/card-opendlm.svg" width="400" alt="OpenDLM" /></a>
 </p>
 
 **[MemHunter](https://github.com/Eizi0/memhunter)** — forensique mémoire (Volatility 3), mapping MITRE ATT&CK automatique, génération de brouillons de règles Sigma/YARA depuis un finding réel. CLI + app desktop, Windows et Linux.
 **[Investigation AGENTS.md](https://github.com/Eizi0/agents-md-attack-vector-research)** — vérification d'un incident de sécurité réel (détournement d'agents de codage IA), protocole de laboratoire documenté, règles Sigma testées.
 **[ProxUI](https://github.com/Eizi0/proxui)** — interface de gestion Proxmox VE (React + Express) : tableaux de bord par hôte et par VM sur données RRD réelles, mode démo sans cluster requis, tests Vitest/Supertest et CI GitHub Actions, [release v1.1.0](https://github.com/Eizi0/proxui/releases/tag/v1.1.0).
-**[OpenDLM](https://github.com/Eizi0/OpenDLM)** — surveillance de fuites de données auto-hébergée, « Uptime Kuma des fuites » : domaines vérifiés par DNS, connecteurs HIBP / Hudson Rock / fil d'actus (FrenchBreaches, ransomware.live), alertes et rapports quotidien/mensuel, double authentification, interface FR/EN, exports et métriques Prometheus, Docker + PostgreSQL, 218 tests et CI GitHub Actions.
+**[OpenDLM](https://github.com/Eizi0/OpenDLM)** — surveillance de fuites de données auto-hébergée, « Uptime Kuma des fuites » : domaines vérifiés par DNS, connecteurs HIBP / Hudson Rock / fil d'actus (FrenchBreaches, ransomware.live), alertes et rapports quotidien/mensuel, double authentification, interface FR/EN, exports et métriques Prometheus, Docker + PostgreSQL, plus de 270 tests et CI GitHub Actions.
 **[Wazuh-Rules](https://github.com/Eizi0/Wazuh-Rules)** — règles de détection pour Wazuh. **[Internal-PKI-StepCA](https://github.com/Eizi0/Internal-PKI-StepCA)** — PKI interne avec Step-CA et Traefik. **[Malware_Analyser](https://github.com/Eizi0/Malware_Analyser)** — outil Python d'analyse de malware. **[SOC_Lab](https://github.com/Eizi0/SOC_Lab)** — lab SOC dans le cloud.
 
 D'autres projets (automatisation des habilitations Active Directory, plateforme de sensibilisation au phishing, lab de détection Terraform/Proxmox) sur **[jeovany.com/projets](https://www.jeovany.com/projets/)**, dépôts non publics.

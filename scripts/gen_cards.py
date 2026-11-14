@@ -21,7 +21,7 @@ TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 OUT = sys.argv[1] if len(sys.argv) > 1 else "assets"
 
 # Les dépôts affichés sur le profil, dans l'ordre du README.
-REPOS = ["memhunter", "agents-md-attack-vector-research", "Wazuh-Rules", "proxui", "OpenDLM"]
+REPOS = ["memhunter", "agents-md-attack-vector-research", "Wazuh-Rules", "proxui", "OpenDLM", "OpenCVEC"]
 
 BG, BORDER, TITLE, TEXT, MUTED, ACCENT = "#0a101c", "#22304a", "#5AB0FF", "#c9d6e8", "#8794ad", "#46C98B"
 LANG_COLORS = {

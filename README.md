@@ -27,6 +27,7 @@
 </p>
 <p align="center">
   <a href="https://github.com/Eizi0/OpenDLM"><img src="./assets/card-opendlm.svg" width="400" alt="OpenDLM" /></a>
+  <a href="https://github.com/Eizi0/OpenCVEC"><img src="./assets/card-opencvec.svg" width="400" alt="OpenCVEC" /></a>
 </p>
 
 **[MemHunter](https://github.com/Eizi0/memhunter)** — forensique mémoire (Volatility 3), mapping MITRE ATT&CK automatique, génération de brouillons de règles Sigma/YARA depuis un finding réel. CLI + app desktop, Windows et Linux.
@@ -36,6 +37,8 @@
 **[ProxUI](https://github.com/Eizi0/proxui)** — interface de gestion Proxmox VE (React + Express) : tableaux de bord par hôte et par VM sur données RRD réelles, mode démo sans cluster requis, tests Vitest/Supertest et CI GitHub Actions, [release v1.1.0](https://github.com/Eizi0/proxui/releases/tag/v1.1.0).
 
 **[OpenDLM](https://github.com/Eizi0/OpenDLM)** — surveillance de fuites de données auto-hébergée, « Uptime Kuma des fuites » : domaines vérifiés par DNS, connecteurs HIBP / Hudson Rock / fil d'actus (FrenchBreaches, ransomware.live), alertes et rapports quotidien/mensuel, double authentification, interface FR/EN, exports et métriques Prometheus, Docker + PostgreSQL, plus de 270 tests et CI GitHub Actions.
+
+**[OpenCVEC](https://github.com/Eizi0/OpenCVEC)** — vérification de CVE auto-hébergée par canari : la cible prouve sa vulnérabilité en résolvant un nom DNS unique ou en relisant un canari fichier déposé sur l'asset, sans exploitation au-delà. Preuve de propriété obligatoire, plugins YAML signés (Ed25519), canari fichier servant de jeton piège, notifications, checks programmés, rapports PDF ; 12 scénarios validés contre de vraies cibles vulnérables, CI GitHub Actions, [release v0.1.0](https://github.com/Eizi0/OpenCVEC/releases/tag/v0.1.0) (binaires et image Docker amd64/arm64).
 
 **[Wazuh-Rules](https://github.com/Eizi0/Wazuh-Rules)** — règles de détection pour Wazuh. **[Internal-PKI-StepCA](https://github.com/Eizi0/Internal-PKI-StepCA)** — PKI interne avec Step-CA et Traefik. **[Malware_Analyser](https://github.com/Eizi0/Malware_Analyser)** — outil Python d'analyse de malware. **[SOC_Lab](https://github.com/Eizi0/SOC_Lab)** — lab SOC dans le cloud.
 
